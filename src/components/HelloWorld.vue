@@ -24,8 +24,8 @@ const cb = (url) => {
 // 路由
 const routes = [
   { path: "/", component: "App" },
-  { path: "/helloWorld1", component: "<p>我是一个 p1</p>" },
-  { path: "/helloWorld2", component: "<p>我是一个 p2</p>" },
+  { path: "/helloWorld1", component: "<p>我是一个 helloWorld1</p>" },
+  { path: "/helloWorld2", component: "<p>我是一个 helloWorld2</p>" },
 ];
 window.addEventListener("pushState", (e) => {
   let url = e.arguments[2];
